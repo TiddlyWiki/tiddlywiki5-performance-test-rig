@@ -1,0 +1,3 @@
+title: $:/performance-test-tiddler
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}} limit="10000"/>

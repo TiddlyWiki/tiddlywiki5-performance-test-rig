@@ -11,7 +11,7 @@
 The following command builds the latest master and the previous v5.1.23 release:
 
 ```sh
-./build-tiddlywiki-at-version.sh v5.1.23 ./tmp/v5.1.23 && ./build-tiddlywiki-at-version.sh master ./tmp/master
+./build-tiddlywiki-at-version.sh ./wiki v5.1.23 ./tmp/v5.1.23 && ./build-tiddlywiki-at-version.sh ./wiki master ./tmp/master
 ```
 
 The following command runs the two wikis under Puppeteer and reports the performance log
