@@ -11,12 +11,14 @@ const puppeteer = require('puppeteer'),
 	}
 	const url = `file://${path.resolve(filepath)}`;
 	console.log(url);
-	const browser = await puppeteer.launch();
+	const browser = await puppeteer.launch({
+		headless: true
+	});
 	const page = await browser.newPage();
-	const navigationPromise = page.waitForNavigation();
-	await page.goto(url);
+	await page.goto(url,{
+		waitUntil: "load"
+	});
 	await page.setViewport({ width: 1440, height: 714 });
-	await navigationPromise;
 	await page.waitForSelector('.tc-sidebar-lists .tc-tab-buttons > button:nth-child(1)');
 	console.log(JSON.parse(await page.evaluate(() => JSON.stringify($tw.perf.logger.buffer))));
 	await browser.close();
