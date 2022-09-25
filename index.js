@@ -19,7 +19,7 @@ const puppeteer = require('puppeteer'),
 		waitUntil: "load"
 	});
 	await page.setViewport({ width: 1440, height: 714 });
-	await page.waitForSelector('.tc-sidebar-lists .tc-tab-buttons > button:nth-child(1)');
+	await page.waitForSelector('body.tc-body .tc-page-container-wrapper');
 	console.log(JSON.parse(await page.evaluate(() => JSON.stringify($tw.perf.logger.buffer))));
 	await browser.close();
 })();
