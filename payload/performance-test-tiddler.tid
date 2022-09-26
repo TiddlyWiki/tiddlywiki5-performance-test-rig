@@ -1,7 +1,5 @@
 title: $:/performance-test-tiddler
 
-<$list filter="[range[0:50]]" variable="count">
-<$list filter="[all[tiddlers]sort[modified]sort[title]sort[modifier]]">
-<$text text=<<currentTiddler>>/>
-</$list>
+<$list filter="[all[tiddlers]!is[system]sort[modified]sort[title]sort[modifier]]">
+<$transclude mode="block"/>
 </$list>
