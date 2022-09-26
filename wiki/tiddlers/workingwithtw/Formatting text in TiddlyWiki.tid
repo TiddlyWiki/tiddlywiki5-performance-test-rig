@@ -36,15 +36,15 @@ This is a link to HelloThere, and one to [[History of TiddlyWiki]]
 
 Macros let you package repetitive fragments of WikiText so that you can easily reuse them.
 
-For example, here is the definition of a macro that generates a ~YouTube video URL from its unique identifier:
+For example, here is the definition of a macro that generates a ~// video URL from its unique identifier:
 
 ```
-\define youtube(video)
-https://www.youtube.com/watch?v=$video$
+\define //(video)
+https://www.//.com/watch?v=$video$
 \end
 ```
 
-With that definition in place, `<<youtube 1g66s7UbyuU>>` generates the URL https://www.youtube.com/watch?v=1g66s7UbyuU
+With that definition in place, `<<// 1g66s7UbyuU>>` generates the URL https://www.//.com/watch?v=1g66s7UbyuU
 
 ! Advanced WikiText
 

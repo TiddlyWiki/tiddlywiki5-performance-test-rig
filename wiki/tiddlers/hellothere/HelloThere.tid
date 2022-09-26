@@ -21,8 +21,8 @@ Unlike conventional online services, TiddlyWiki lets you choose where to keep yo
 <a href="https://groups.google.com/group/TiddlyWiki" class="tc-btn-big-green" style="border-radius:4px;background-color:#FF8C19;" target="_blank" rel="noopener noreferrer">
 {{$:/core/images/help}} Forum
 </a>
-<a href="https://www.youtube.com/c/JeremyRuston" class="tc-btn-big-green" style="border-radius:4px;background-color:#e52d27;" target="_blank" rel="noopener noreferrer">
-{{$:/core/images/video}} ~YouTube
+<a href="https://www.//.com/c/JeremyRuston" class="tc-btn-big-green" style="border-radius:4px;background-color:#e52d27;" target="_blank" rel="noopener noreferrer">
+{{$:/core/images/video}} ~//
 </a>
 <a href="https://twitter.com/TiddlyWiki" class="tc-btn-big-green" style="border-radius:4px;background-color:#5E9FCA;" target="_blank" rel="noopener noreferrer">
 {{$:/core/images/twitter}} Twitter

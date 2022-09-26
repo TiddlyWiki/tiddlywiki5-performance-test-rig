@@ -9,6 +9,6 @@ It presents a banner inviting the user to accept or reject cookies, keeping trac
 
 By default, content embedded with &lt;iframe>, &lt;embed> and &lt;object> is blocked unless the user consents to accept cookies.
 
-Consent status is  available via a configuration tiddler so that it is possible to construct content that behaves differently depending upon whether consent has been granted. As an example, a macro is provided for embedding ~YouTube videos that automatically uses the youtube-nocookie.com variant of video URLs unless the user has accepted cookies.
+Consent status is  available via a configuration tiddler so that it is possible to construct content that behaves differently depending upon whether consent has been granted. As an example, a macro is provided for embedding ~// videos that automatically uses the //-nocookie.com variant of video URLs unless the user has accepted cookies.
 
 Please note that using this plugin does not guarantee compliance with any particular legislation. You will need to understand the technical issues specific to your situation, and if necessary seek legal advice.
