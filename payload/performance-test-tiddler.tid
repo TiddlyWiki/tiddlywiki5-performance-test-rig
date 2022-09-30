@@ -1,5 +1,6 @@
 title: $:/performance-test-tiddler
 
 <$list filter="[all[tiddlers]!is[system]sort[modified]sort[title]sort[modifier]]">
+<h1><$text text=<<currentTiddler>>/></h1>
 <$transclude mode="block"/>
 </$list>
